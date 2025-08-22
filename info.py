@@ -55,7 +55,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want n
 
 DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://Samir:<db_password>@cluster0.nitglra.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'movies')
 
 # Verify/token system
 VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
