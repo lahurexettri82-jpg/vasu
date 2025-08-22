@@ -53,7 +53,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want n
 # https://youtu.be/qFB0cFqiyOM?si=QGuFSZ7qhxl4VTrA
 
 
-DATABASE_URI = environ.get('DATABASE_URL', "mongodb+srv://Samir:<db_password>@cluster0.nitglra.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Samir:<db_password>@cluster0.nitglra.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'movies')
 
